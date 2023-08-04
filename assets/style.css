@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "fonte";
+    src: url("Glossy\ Sheen\ Shine\ DEMO.ttf");
+}
+body {
+    background-color: lightpink;
+    font-family: sans-serif;
+}
+main {
+    display: flex;
+    margin-left: 13rem;
+    align-items: center;
+    width: 60rem;
+    height: 40rem;
+    border: 0.2rem solid palevioletred;
+    border-radius: 20px;
+}
+img {
+    width: 23rem;
+    height: 30rem;
+    border-radius: 20px;
+}
+h1 {
+    font-family: "fonte";
+    font-size: 3rem;
+    color: palevioletred;
+}
+p {
+    font-size: 0.9rem;
+}
+button {
+    background-color: palevioletred;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+}
