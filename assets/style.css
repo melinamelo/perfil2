@@ -8,12 +8,14 @@ body {
 }
 main {
     display: flex;
-    margin-left: 13rem;
+    margin-left: 17rem;
+    margin-top: 2rem;
     align-items: center;
     width: 60rem;
     height: 40rem;
-    border: 0.2rem solid palevioletred;
+    border: 0.2rem solid rgb(0, 0, 0);
     border-radius: 20px;
+    box-shadow: #303030 3px 20px 20px 3px;
 }
 img {
     width: 23rem;
@@ -23,15 +25,16 @@ img {
 h1 {
     font-family: "fonte";
     font-size: 3rem;
-    color: palevioletred;
+    color: rgb(0, 0, 0);
 }
 p {
     font-size: 0.9rem;
 }
 button {
-    background-color: palevioletred;
+    background-color: rgb(0, 0, 0);
     width: 7rem;
     height: 3rem;
     border-radius: 1rem;
     border: none;
+    color: white;
 }
